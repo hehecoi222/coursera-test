@@ -3,7 +3,13 @@ header > h1 {
 }
 .top-navbar li {
     list-style: none;
-    width: auto;
+    width: 200px;
+    text-align: center;
     background-color: darkgray;
     color: darkgreen;
+    margin: 5px 0px;
+}
+.top-navbar a:link, a:visited{
+    text-emphasis-style: none;
+    color:lawngreen;
 }
