@@ -1,0 +1,9 @@
+header > h1 {
+    color:cadetblue;
+}
+.top-navbar li {
+    list-style: none;
+    width: auto;
+    background-color: darkgray;
+    color: darkgreen;
+}
