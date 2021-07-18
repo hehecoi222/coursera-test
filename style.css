@@ -13,3 +13,19 @@ header > h1 {
     text-emphasis-style: none;
     color:lawngreen;
 }
+.score-tag{
+    margin: 10px;
+}
+.read-more{
+    margin-top: -20px;
+    font-size: 14px;
+}
+footer{
+    margin-top: 50px;
+}
+.article-tag{
+    margin: 50px 0px;
+}
+.article-title{
+    margin: -10px 0;
+}
