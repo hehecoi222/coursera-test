@@ -61,6 +61,17 @@ section#article article{
     border-radius: 2px;
     padding: 10px;
     position: relative;
+    z-index:-1;
+}
+section#article p{
+    word-break: break-word;
+    width:90%;
+}
+section#article a{
+    position: absolute;
+    right:0;
+    bottom:50%;
+    margin:10px
 }
 footer {
     text-align: center;
