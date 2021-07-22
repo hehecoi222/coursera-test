@@ -68,7 +68,8 @@ section#article p{
     width:90%;
 }
 section#article h3{
-    
+    width:90%;
+    word-break:break-word;
 }
 section#article a{
     position: absolute;
