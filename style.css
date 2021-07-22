@@ -1,31 +1,70 @@
-header > h1 {
-    color:cadetblue;
+*{
+    box-sizing: border-box;
+    border: 0px solid red;
+    margin: 0;
 }
-.top-navbar li {
+header#header{
+    height: 70px;
+    box-shadow: 0px 1px 5px black;
+    position: sticky;
+    top:0;
+    background-color: cadetblue;
+}
+h1.page-title {
+    font-family: Arial, Helvetica, sans-serif;
+    width:70%;
+    margin: 16px 0;
+    padding-left: 20px;
+    float: left;
+    color: whitesmoke;
+}
+nav {
+    float: left;
+    width: 30%;
+    height: 100%;
+    padding: 24px 0;
+}
+nav li{
+    position: relative;
+    float: left;
+    width: 50%;
     list-style: none;
-    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav li > a{
+    text-decoration-line: none;
+    color: wheat;
+}
+div.content-container{
+    width: 100%;
+    margin: 0px;
+}
+section{
+    margin-top: 30px;
+    float:left;
+}
+section#article{
+    margin: 30px;
+    width: 60%;
+}
+section#scoreboard{
+    width: 33%;
+}
+section#article h2{
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1,2em;
+}
+section#article article{
+    margin: 20px 0;
+    box-shadow: 0px 1px 3px black;
+    border-radius: 2px;
+    padding: 10px;
+    position: relative;
+}
+footer {
     text-align: center;
-    background-color: darkgray;
-    color: darkgreen;
-    margin: 5px 0px;
-}
-.top-navbar a:link, a:visited{
-    text-emphasis-style: none;
-    color:lawngreen;
-}
-.score-tag{
-    margin: 10px;
-}
-.read-more{
-    margin-top: -20px;
-    font-size: 14px;
-}
-footer{
-    margin-top: 50px;
-}
-.article-tag{
-    margin: 50px 0px;
-}
-.article-title{
-    margin: -10px 0;
+    position: relative;
+    bottom: -100px;
+    clear: left;
 }
