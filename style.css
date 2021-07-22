@@ -71,11 +71,13 @@ section#article h3{
     width:90%;
     word-break:break-word;
 }
-section#article a{
+section#article img.read-more-img {
+    width:20px;
+    height:20px;
     position: absolute;
     right:0;
-    bottom:50%;
-    margin:10px
+    bottom:0;
+    margin:10px;
 }
 footer {
     text-align: center;
