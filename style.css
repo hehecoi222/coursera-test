@@ -71,7 +71,7 @@ section#article h3{
     width:90%;
     word-break:break-word;
 }
-section#article img.read-more-img {
+section#article img {
     width:20px;
     height:20px;
     position: absolute;
