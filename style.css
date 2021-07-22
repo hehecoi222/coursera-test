@@ -67,6 +67,9 @@ section#article p{
     word-break: break-word;
     width:90%;
 }
+section#article h3{
+    
+}
 section#article a{
     position: absolute;
     right:0;
