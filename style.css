@@ -90,3 +90,10 @@ section#article, section#scoreboard{
         width: 100%;
     }
 }
+header > nav{
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+}
+nav li > a:visited:link{
+    text-decoration: none;
+}
