@@ -9,12 +9,12 @@ body{
     border: 0;
 }
 #logo-img{
-    background-image: url("https://www.hltv.org/img/static/TopSmallLogo2x.png");
+    background-image: url("https://www.davidchuschinabistro.com/images/restaurant-logo_medium.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 150px;
     height: 150px;
-    margin: 10px 15px 10px 0;
+    margin: 0px 15px 10px 0;
 }
 #kosher-certificate{
     width: 30px;
@@ -45,4 +45,7 @@ body{
 }
 .navbar-brand p span{
     vertical-align: middle;
+}
+#navbar-row{
+    width: 100%;
 }
