@@ -49,3 +49,59 @@ body{
 #navbar-row{
     width: 100%;
 }
+ul#nav-list{
+    width: 100%;
+    margin-top: 10px;
+}
+#nav-list a{
+    color: #951C49;
+}
+#nav-list li:nth-child(1):hover, #nav-list li:nth-child(2):hover, #nav-list li:nth-child(3):hover {
+    background: #e7e7e7;
+}
+#nav-list svg{
+    margin-left: auto;
+    margin-right: auto;
+}
+#nav-list a span{
+    font-size: 1.3em;
+}
+#phone{
+    margin-top: 18px;
+}
+#phone a{
+    text-align: right;
+    padding-bottom: 0;
+}
+#phone a:hover{
+    background: #e7e7e7;
+}
+#phone div{
+    color: #557c3e;
+    padding-right: 0px;
+    text-align: right;
+}
+
+@media (max-width: 575.99px) {
+    .navbar-brand h1{
+        font-size: 6vw;
+    }
+    .navbar-brand p span{
+        font-size: 3vw;
+    }
+    header{
+        width: 100%;
+    }
+}
+
+@media (max-width: 991.99px){
+    #navbarSupportedContent li{
+        margin: 5px;
+    }
+    #navbarSupportedContent a{
+        width: 100%;
+    }
+    #nav-list svg{
+        margin-right: 5px;
+    }
+}
