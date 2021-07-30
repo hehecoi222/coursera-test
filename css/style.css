@@ -148,3 +148,15 @@ ul#nav-list{
     border-radius: 6px;
     padding: 0;
 }
+#menu-tile, #specials-tile, #map-tile{
+    height: 250px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+    border: 2px solid #3f0c1f;
+    overflow: hidden;
+}
+
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover{
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
