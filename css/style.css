@@ -82,13 +82,13 @@ ul#nav-list{
     padding-right: 0px;
     text-align: right;
 }
-
+/* Start of media querries*/
 @media (max-width: 575.99px) {
     .navbar-brand h1{
         font-size: 6vw;
     }
     .navbar-brand p span{
-        font-size: 3vw;
+        font-size: 2.5vw;
     }
     header{
         width: 100%;
@@ -125,6 +125,10 @@ ul#nav-list{
         box-shadow: 0 0 50px #3f0c1f;
         border: 2px solid #3f0c1f;
     }
+    #call-btn svg{
+        width: 30px;
+        height: 30px;
+    }
 }
 @media (min-width:1200px){
     .jumbotron{
@@ -136,10 +140,24 @@ ul#nav-list{
         border: 2px solid #3f0c1f;
     }
 }
+@media (min-width:576px) and (max-width: 767.99px){
+    div#menu-tile, div#specials-tile{
+        height: 200px;
+    }
+    #call-btn svg{
+        width: 24px;
+        height: 24px;
+    }
+}
+
+/* End of media querries*/
 #call-btn{
     margin: 10px;
     margin-top: 25px;
     box-shadow: 0 0 70px #3f0c1f;
+}
+#call-btn span{
+    font-size: 4vw;
 }
 .jumbotron{
     margin-top: 30px;
@@ -148,15 +166,60 @@ ul#nav-list{
     border-radius: 6px;
     padding: 0;
 }
+
+#home-tiles{
+    margin-top:30px ;
+}
 #menu-tile, #specials-tile, #map-tile{
     height: 250px;
     width: 100%;
     position: relative;
     margin-bottom: 15px;
+    border-radius: 6px;
     border: 2px solid #3f0c1f;
     overflow: hidden;
 }
 
 #menu-tile:hover, #specials-tile:hover, #map-tile:hover{
     box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile{
+    background: url("https://www.davidchuschinabistro.com/images/menu-tile.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#specials-tile{
+    background: url("https://www.davidchuschinabistro.com/images/specials-tile.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    background: #000;
+    color: #fff;
+    opacity: 0.8;
+    font-size: 1.15rem;
+}
+
+footer {
+    background: #222;
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+div.row section > h2{
+    font-size: 1.25rem;
+}
+
+#address p > em{
+    color: #557c3e;
+    font-size: 0.8rem;
+    line-height: 1.8;
 }
