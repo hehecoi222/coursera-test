@@ -148,8 +148,15 @@ ul#nav-list{
         width: 24px;
         height: 24px;
     }
+    section.row a > div.card{
+        height: 242px;
+    }
 }
-
+@media (max-width: 374.99px){
+    #call-btn{
+        width:100%;
+    }
+}
 /* End of media querries*/
 #call-btn{
     margin: 10px;
@@ -157,7 +164,7 @@ ul#nav-list{
     box-shadow: 0 0 70px #3f0c1f;
 }
 #call-btn span{
-    font-size: 4vw;
+    font-size: 1.25rem;
 }
 .jumbotron{
     margin-top: 30px;
@@ -222,4 +229,64 @@ div.row section > h2{
     color: #557c3e;
     font-size: 0.8rem;
     line-height: 1.8;
+}
+
+section.row a > div{
+    height: 154px;
+    margin-top: 15px;
+    border: 2px solid #3f0c1f;
+    border-radius: 6px;
+}
+
+section.row a > div.card:hover{
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+section.row a > div.card > span{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: 0.8;
+    text-align: center;
+}
+#menu-categories-title{
+    margin-top: 30px;
+}
+
+#menu-categories-title + div{
+    margin-bottom: 15px;
+}
+
+#lunch{
+    background: url("https://www.davidchuschinabistro.com/images/menu/L/L.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#beef{
+    background: url("https://www.davidchuschinabistro.com/images/menu/F/F.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#appetizers{
+    background: url("https://www.davidchuschinabistro.com/images/menu/B/B.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#veal{
+    background: url("https://www.davidchuschinabistro.com/images/menu/V/V.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#soup{
+    background: url("https://www.davidchuschinabistro.com/images/menu/A/A.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#duck{
+    background: url("https://www.davidchuschinabistro.com/images/menu/D/D.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
 }
