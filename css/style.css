@@ -129,6 +129,9 @@ ul#nav-list{
         width: 30px;
         height: 30px;
     }
+    div.col-md-7.col-lg-8 > div.card-body > p.card-text#description{
+        font-size: 0.85rem;
+    }
 }
 @media (min-width:1200px){
     .jumbotron{
@@ -289,4 +292,30 @@ section.row a > div.card > span{
     background: url("https://www.davidchuschinabistro.com/images/menu/D/D.jpg") no-repeat;
     background-position: center;
     background-size: cover;
+}
+img#menu-item-img{
+    object-fit: cover;
+}
+div.menu-item-tile.col-md-6.col-12 > div.card{
+    background: #814150;
+    box-shadow: 0px 0px 2px #3f0c1f;
+    transition: box-shadow .3s;
+}
+div.menu-item-tile.col-md-6.col-12 > div.card:hover {
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+div.col-md-7.col-lg-8 > div.card-body > p.card-text#description{
+    height: 100px;
+    overflow: hidden;  
+    margin: 0;
+}
+div.col-md-7.col-lg-8 > div.card-body > p.position-absolute{
+    right: -10px;
+    padding: 2px;
+    bottom: -10px;
+    border-radius: 10px;
+    margin:0;
+    background: #f6b319;
+    box-shadow: 0px 0px 2px #3f0c1f;
+    color: #000
 }
