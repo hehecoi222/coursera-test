@@ -297,7 +297,7 @@ img#menu-item-img{
     object-fit: cover;
 }
 div.menu-item-tile.col-md-6.col-12 > div.card{
-    background: #814150;
+    background: #753c48;
     box-shadow: 0px 0px 2px #3f0c1f;
     transition: box-shadow .3s;
 }
