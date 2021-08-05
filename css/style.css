@@ -93,6 +93,9 @@ ul#nav-list{
     header{
         width: 100%;
     }
+    img#menu-item-img{
+        height: 250px;
+}
 }
 
 @media (max-width: 991.99px){
