@@ -303,6 +303,7 @@ div.menu-item-tile.col-md-6.col-12 > div.card{
 }
 div.menu-item-tile.col-md-6.col-12 > div.card:hover {
     box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background: #712a3a;
   }
 div.col-md-7.col-lg-8 > div.card-body > p.card-text#description{
     height: 100px;
