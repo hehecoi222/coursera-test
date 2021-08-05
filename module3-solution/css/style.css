@@ -18,6 +18,7 @@ li#beef-nav a:link, li#beef-nav a:visited{
 li#chicken-nav{
     background: tomato;
     border: 2px solid black;
+    border-bottom: 0;
 }
 li#chicken-nav a:link, li#chicken-nav a:visited{
     color: white;
@@ -25,6 +26,7 @@ li#chicken-nav a:link, li#chicken-nav a:visited{
 li#sushi-nav{
     background:springgreen;
     border: 2px solid black;
+    border-top: 0;
 }
 li#sushi-nav a:link, li#sushi-nav a:visited{
     color: black;
