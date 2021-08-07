@@ -1,42 +1,36 @@
 *{
     border: 0px solid red;
 }
-
 header{
-    background: wheat;
+    background-color: aliceblue;
+    z-index: 1;
 }
-ul.d-md-none{
-    margin-top: 10px;
+section > h2{
+    margin-bottom: 30px;
+    margin-left: 1.2rem;
 }
-li#beef-nav{
-    background:steelblue;
-    border: 2px solid black;
+
+div.card > a:link, div.card > a:visited{
+    text-decoration: none;
 }
-li#beef-nav a:link, li#beef-nav a:visited{
-    color: white;
+
+img.card-img {
+    object-fit: cover;
 }
-li#chicken-nav{
-    background: tomato;
-    border: 2px solid black;
-    border-bottom: 0;
+
+div.card-body > p.article-subhead{
+    height: 70px;
+    overflow: hidden;
 }
-li#chicken-nav a:link, li#chicken-nav a:visited{
-    color: white;
+/*START of MEDIA QUERRIES */
+@media (max-width:767px) {
+    div.card-body > p.article-subhead{
+        height: 100%;
+    }
+    img.card-img {
+        height: 100%;
+    }
 }
-li#sushi-nav{
-    background:springgreen;
-    border: 2px solid black;
-    border-top: 0;
-}
-li#sushi-nav a:link, li#sushi-nav a:visited{
-    color: black;
-}
-article#Chicken{
-    background: bisque;
-}
-article#Beef{
-    background: aliceblue;
-}
-article#Sushi{
-    background: azure;
-}
+
+
+/*END of MEDIA QUERRIES */
