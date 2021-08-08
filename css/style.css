@@ -22,6 +22,21 @@ div.card-body > p.article-subhead{
     height: 70px;
     overflow: hidden;
 }
+
+div.carousel-item.active > img {
+    filter:brightness(.4);
+    aspect-ratio: 2.5/1;
+    object-fit: cover;
+}
+h2.article-header{
+    font-weight: normal;
+    font-size:large;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    flex-basis: 60%;
+    margin: 0;
+}
 /*START of MEDIA QUERRIES */
 @media (max-width:767px) {
     div.card-body > p.article-subhead{
@@ -30,7 +45,19 @@ div.card-body > p.article-subhead{
     img.card-img {
         height: 100%;
     }
+    div.carousel-item.active > img {
+        height:300px;
+    }
 }
 
-
+@media (min-width:1400px){
+    div.carousel-item.active > img {
+        aspect-ratio: 3/1;
+    }
+}
+@media (max-width: 374.99px){
+    div.carousel-caption > h1{
+        font-size: 7vw;
+    }
+}
 /*END of MEDIA QUERRIES */
