@@ -36,8 +36,58 @@ h2.article-header{
     white-space: nowrap;
     flex-basis: 60%;
     margin: 0;
+    display:none;
+}
+div#article-content{
+    margin-top:30px;
+    padding-left: 125px;
+    padding-right: 125px;
+    font-size: 1.25rem;
+    text-align: justify;
+}
+div#article-content > p{
+    margin-bottom: 2rem;
+}
+div#article-content::first-letter{
+    font-size: 3rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    vertical-align: bottom;
+    line-height: .9em;
+}
+div.card > div.card-img-container{
+    padding: 5px;
+}
+div.card img.card-img-top{
+    border-radius: inherit;
 }
 /*START of MEDIA QUERRIES */
+@media (min-width:1400px){
+    div.carousel-item.active > img {
+        aspect-ratio: 3/1;
+    }
+    body{
+        font-size: 1.28rem;
+    }
+    div.card-body > p.article-subhead{
+        height: 70px;
+        overflow: hidden;
+        font-size:1rem;
+        margin-bottom: 8px;
+    }
+    div.card-body small.text-muted{
+        font-size: 0.8rem;
+    }
+    div#article-content{
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}
+@media(max-width:991px){
+    div#article-content{
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+}
 @media (max-width:767px) {
     div.card-body > p.article-subhead{
         height: 100%;
@@ -46,16 +96,22 @@ h2.article-header{
         height: 100%;
     }
     div.carousel-item.active > img {
-        height:300px;
+        height:350px;
+    }
+    div#article-content{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+}
+@media (max-width:575px){
+    div#article-content{
+        padding-left: 5vw;
+        padding-right: 5vw;
+        font-size: 1.1rem;
     }
 }
 
-@media (min-width:1400px){
-    div.carousel-item.active > img {
-        aspect-ratio: 3/1;
-    }
-}
-@media (max-width: 374.99px){
+@media (max-width: 374px){
     div.carousel-caption > h1{
         font-size: 7vw;
     }
