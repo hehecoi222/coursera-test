@@ -1,11 +1,24 @@
-var message ="in Global"
-console.log("global: message:",message)
-function a() {
-    var message ="in A"
-    console.log("A: message:",message)
-    var b= function (){
-        console.log("B: message:",message)
-    }
-    b()
+s = "hello"
+s += " world"
+console.log(s + "!")
+
+console.log(3 *5)
+
+
+
+console.log( true == "hello")
+
+if (0) {
+    console.log("hi")
 }
-a()
+function sayHi() {
+    return{
+        name:'Hi'
+    }
+}
+
+console.log(sayHi())
+
+for (i=0;i<100; i++){
+    console.log(i)
+}
