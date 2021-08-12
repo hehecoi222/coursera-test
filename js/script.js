@@ -1,13 +1,8 @@
-facebook = {
-    name: "Facebook",
-    ceo: {
-        firstName: "Mark",
-        favColor: "blue"
-    },
-    "stock of company": 110
+function multiply(x,y){
+    return x*y
 }
+console.log(multiply(5,3))
 
-var s = new String
-s= "hello"
-console.log(facebook)
-console.log(s)
+multiply.version="v1.0.0"
+
+console.log(multiply.toString())
