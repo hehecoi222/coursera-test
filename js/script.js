@@ -1,5 +1,5 @@
 function makeMultiplier(Multiplier) {
-    var myFunc = function (x) {
+    function myFunc(x){
         return Multiplier*x
     }
 
