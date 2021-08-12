@@ -1,24 +1,8 @@
-s = "hello"
-s += " world"
-console.log(s + "!")
-
-console.log(3 *5)
-
-
-
-console.log( true == "hello")
-
-if (0) {
-    console.log("hi")
-}
-function sayHi() {
-    return{
-        name:'Hi'
-    }
+function getsideDish(sideDish){
+    sideDish = sideDish || "Whaterver!"
+    console.log("Chicken with " + sideDish)
 }
 
-console.log(sayHi())
+getsideDish("Noodles")
 
-for (i=0;i<100; i++){
-    console.log(i)
-}
+getsideDish()
