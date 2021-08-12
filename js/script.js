@@ -1,8 +1,10 @@
-function multiply(x,y){
-    return x*y
+function makeMultiplier(Multiplier) {
+    var myFunc = function (x) {
+        return Multiplier*x
+    }
+
+    return myFunc;
 }
-console.log(multiply(5,3))
 
-multiply.version="v1.0.0"
-
-console.log(multiply.toString())
+var multiplyBy3 = makeMultiplier(3)
+console.log(multiplyBy3(2))
