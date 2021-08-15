@@ -1,16 +1,14 @@
-//By Value:
+function Circle (rad) {
+    this.rad = rad
+    console.log(this.rad)
+    
+    var doubleCircle  = function (radius) {
+        this.radius = radius
+        return this.radius*2
+    }
+    console.log(doubleCircle(this.rad))
+};
 
-var x = 5
-var y =x
-y=7
-console.log(x)
-console.log(y)
+myCircle = new Circle(20)
 
-//By Reference(refer to address)
-var a ={
-    x:5
-}
-
-var b =a
-b.x= 7
-console.log(a.x)
+console.log(myCircle)
