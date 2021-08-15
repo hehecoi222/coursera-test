@@ -1,10 +1,16 @@
-function makeMultiplier(Multiplier) {
-    function myFunc(x){
-        return Multiplier*x
-    }
+//By Value:
 
-    return myFunc;
+var x = 5
+var y =x
+y=7
+console.log(x)
+console.log(y)
+
+//By Reference(refer to address)
+var a ={
+    x:5
 }
 
-var multiplyBy3 = makeMultiplier(3)
-console.log(multiplyBy3(2))
+var b =a
+b.x= 7
+console.log(a.x)
