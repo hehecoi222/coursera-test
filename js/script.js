@@ -1,14 +1,12 @@
 function Circle (rad) {
     this.rad = rad
-    console.log(this.rad)
-    
-    var doubleCircle  = function (radius) {
-        this.radius = radius
-        return this.radius*2
-    }
-    console.log(doubleCircle(this.rad))
 };
+
+Circle.prototype.getRad = function () {
+    return this.rad
+}
 
 myCircle = new Circle(20)
 
 console.log(myCircle)
+console.log(myCircle.getRad())
